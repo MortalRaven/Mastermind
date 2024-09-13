@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- General text -->
+    <string name="app_name">Mastermind</string>
+    <string name="options">Opcje</string>
+
+    <!-- Game Table -->
+    <string name="timer">Czas: %02d:%02d:%02d</string>
+    <string name="counter">Próba: %d/%d</string>
+    <string name="apply">ZATWIERDŹ</string>
+    <string name="new_game">Nowa gra</string>
+    <string name="win">Wygrałeś!</string>
+    <string name="loose">Przegrałeś!</string>
+    <string name="empty_fields">Wypełnij wszystkie pola w rzędzie.</string>
+
+    <!--  Menu Titles  -->
+    <string name="howToPlay">Jak grać?</string>
+
+    <!-- Options titles -->
+    <string name="options_board">Ustawienia planszy</string>
+    <string name="options_game">Ustawienia gry</string>
+    <string name="options_general">Ustawienia ogólne</string>
+    <string name="row_amount">Ilość prób</string>
+    <string name="col_amount">Ilość kolumn</string>
+    <string name="color_amount">Ilość kolorów</string>
+    <string name="unique_colors">Unikalne kolory</string>
+    <string name="input_type">Tryb wprowadzania</string>
+    <string name="timer_option">Timer</string>
+    <string name="game_mode_practice">Tryb praktyki</string>
+    <string name="practice_mode_autofill">Autouzupełnianie trybu praktyki</string>
+    <string name="app_theme">Motyw Aplikacji</string>
+    <string name="language">Język</string>
+    <string name="appearance">Wygląd</string>
+    <string name="field_style">Styl pól gry</string>
+    <string name="color_palette">Paleta Kolorów</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Options summary -->
+    <string name="options_row_summary">Zmień ilość rzędów (prób).</string>
+    <string name="options_col_summary">Zmień ilość kolumn (długość kodu).</string>
+    <string name="options_color_summary">Zmień ilość kolorów.</string>
+    <string name="options_unique_summary">Czy kolory mogą się powtarzać? </string>
+    <string name="options_input_summary">Jeśli włączone, kolory będą wprowadzane sekwencyjnie od lewej do prawej.</string>
+    <string name="timer_option_summary">Pokazuje licznik czasu gry.</string>
+    <string name="game_mode_practice_summary">Jeśli włączone, podpowiedzi będą umieszczone w kolejności pól kolorów.</string>
+    <string name="practice_mode_autofill_summary">Jeśli włączone, odgadnięte kolory będą kopiowane do następnego rzędu.</string>
+
+    <!-- Options warning -->
+    <string name="options_col_warning">Ilość kolumn nie może być większa od ilości kolorów w trybie Unikalnych Kolorów. \nUstawienia zostały skorygowane.</string>
+
+    <!--  How To Play  -->
+    <string name="tut_code_desc">Kod jest automatycznie generowaną kombinacją kolorów. Każda nowa rozgrywa, ma nowy kod do odgadnięcia.</string>
+    <string name="tut_guessing_desc">Gracz rozpoczyna odgadywanie wzoru, poprzez wypełnienie pustych pól w pierwszym rzędzie gry, kolorami znajdującymi się u dołu ekranu.
+        \n\nPo wypełnieniu wszystkich pól w rzędzie, gracz może zatwierdzić kombinację przyciskiem na dole ekranu.</string>
+    <string name="tut_checking_desc">Zatwierdzenie próby spowoduje sprawdzenie kodu i wyświetlenie wskazówek dotyczących następnej próby, poprzez pokazanie małych pinów obok wiersza.
+        \nDomyślnie, podpowiedzi nie są wyświetlane w kolejności pól wiersza.</string>
+    <string name="tut_good_desc">Jedno z pól ma dobry kolor i jest w dobrym miejscu.</string>
+    <string name="tut_misplaced_desc">Jedno z pól ma dobry kolor, lecz znajduje się w złym miejscu.</string>
+    <string name="tut_wrong_desc">Jedno z pól jest w kolorze, który nie występuje w kodzie.</string>
+    <string name="tut_win_desc">Gra może się zakończyć poprzez wygraną lub przegraną. Jeśli gracz odgadnie wzór w trakcie ustalonych prób - wygrywa. Jeśli kod nie jest w pełni odgadnięty do ostatniej próby, jest to przegrana.</string>
+</resources>

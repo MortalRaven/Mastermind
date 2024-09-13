@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="backgroundMain">#121316</color>
+    <color name="backgroundSecondary">#313237</color>
+    <color name="textPrimary">#F4F4F4</color>
+    <color name="textSecondary">#C3C3C3</color>
+    <color name="circleFade">#66060709</color>
+    <color name="accent">#229FFF</color>
+
+    <color name="darker_gray">#66363A43</color>
+    <color name="lighter_gray">#7A8089</color>
+
+</resources>

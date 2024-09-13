@@ -1,0 +1,112 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/options_board">
+
+        <SeekBarPreference
+            app:key="row_amount"
+            app:defaultValue="8"
+            app:min="4"
+            android:max="14"
+            app:showSeekBarValue="true"
+            app:title="@string/row_amount"
+            app:summary="@string/options_row_summary" />
+
+        <SeekBarPreference
+            app:key="col_amount"
+            app:defaultValue="4"
+            app:min="3"
+            android:max="8"
+            app:showSeekBarValue="true"
+            app:title="@string/col_amount"
+            app:summary="@string/options_col_summary" />
+
+        <SeekBarPreference
+            app:key="color_amount"
+            app:defaultValue="5"
+            app:min="3"
+            android:max="8"
+            app:showSeekBarValue="true"
+            app:title="@string/color_amount"
+            app:summary="@string/options_color_summary" />
+
+        <SwitchPreference
+            app:key="unique_colors"
+            app:defaultValue="false"
+            app:title="@string/unique_colors"
+            app:summary="@string/options_unique_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/options_game" >
+
+        <SwitchPreference
+            app:key="show_timer"
+            app:defaultValue="true"
+            app:title="@string/timer_option"
+            app:summary="@string/timer_option_summary" />
+
+        <SwitchPreference
+            app:key="game_mode_practice"
+            app:defaultValue="false"
+            app:title="@string/game_mode_practice"
+            app:summary="@string/game_mode_practice_summary" />
+
+        <SwitchPreference
+            app:defaultValue="false"
+            app:dependency="game_mode_practice"
+            app:disableDependentsState="false"
+            app:isPreferenceVisible="false"
+            app:key="practice_mode_autofill"
+            app:summary="@string/practice_mode_autofill_summary"
+            app:title="@string/practice_mode_autofill" />
+
+        <SwitchPreference
+            app:key="input_type"
+            app:defaultValue="true"
+            app:title="@string/input_type"
+            app:summary="@string/options_input_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/appearance">
+
+        <ListPreference
+            android:defaultValue="1"
+            app:entries="@array/theme_mode_entries"
+            app:entryValues="@array/theme_mode_values"
+            app:key="app_theme"
+            app:title="@string/app_theme"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="1"
+            app:entries="@array/fields_style_entries"
+            app:entryValues="@array/fields_style_values"
+            app:key="fields_style"
+            app:title="@string/field_style"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:defaultValue="1"
+            app:entries="@array/color_palette_entries"
+            app:entryValues="@array/color_palette_values"
+            app:key="color_palette"
+            app:title="@string/color_palette"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/options_general">
+
+        <ListPreference
+            app:defaultValue="en"
+            app:entries="@array/language_entries"
+            app:entryValues="@array/language_values"
+            app:key="app_locale"
+            app:title="@string/language"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

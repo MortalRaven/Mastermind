@@ -1,0 +1,105 @@
+<resources>
+
+    <string-array name="language_entries">
+        <item>English</item>
+        <item>Polski</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>pl</item>
+    </string-array>
+
+
+    <string-array name="theme_mode_entries">
+        <item>Dark Mode</item>
+        <item>Light Mode</item>
+        <item>Default</item>
+    </string-array>
+
+    <string-array name="theme_mode_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="fields_style_entries">
+        <item>Circles</item>
+        <item>Square</item>
+        <item>Pandas</item>
+    </string-array>
+
+    <string-array name="fields_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="color_palette_entries">
+        <item>Normal</item>
+        <item>Pastel</item>
+        <item>Vibrant</item>
+    </string-array>
+
+    <string-array name="color_palette_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    
+    
+    <integer-array name="game_palette">
+        <item>@color/m_red</item>
+        <item>@color/m_orange</item>
+        <item>@color/m_yellow</item>
+        <item>@color/m_green</item>
+        <item>@color/m_blue</item>
+        <item>@color/m_purple</item>
+        <item>@color/m_pink</item>
+        <item>@color/m_brown</item>
+    </integer-array>
+
+    <integer-array name="game_palette_pastel">
+        <item>@color/m_pastel_red</item>
+        <item>@color/m_pastel_orange</item>
+        <item>@color/m_pastel_yellow</item>
+        <item>@color/m_pastel_green</item>
+        <item>@color/m_pastel_blue</item>
+        <item>@color/m_pastel_purple</item>
+        <item>@color/m_pastel_pink</item>
+        <item>@color/m_pastel_brown</item>
+    </integer-array>
+
+    <integer-array name="game_palette_vibrant">
+        <item>@color/m_vibrant_red</item>
+        <item>@color/m_vibrant_orange</item>
+        <item>@color/m_vibrant_yellow</item>
+        <item>@color/m_vibrant_green</item>
+        <item>@color/m_vibrant_blue</item>
+        <item>@color/m_vibrant_purple</item>
+        <item>@color/m_vibrant_pink</item>
+        <item>@color/m_vibrant_brown</item>
+    </integer-array>
+
+    <integer-array name="hints_palette">
+        <item>@color/m_green</item>
+        <item>@color/m_red</item>
+        <item>@color/darker_gray</item>
+    </integer-array>
+
+    <integer-array name="hints_palette_pastel">
+        <item>@color/m_pastel_green</item>
+        <item>@color/m_pastel_red</item>
+        <item>@color/lighter_gray</item>
+    </integer-array>
+
+    <integer-array name="hints_palette_vibrant">
+        <item>@color/m_vibrant_green</item>
+        <item>@color/m_vibrant_red</item>
+        <item>@color/vibrant_gray</item>
+    </integer-array>
+
+
+</resources>

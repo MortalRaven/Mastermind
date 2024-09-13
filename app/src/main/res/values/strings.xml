@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- General text -->
+    <string name="app_name">Mastermind</string>
+    <string name="options">Settings</string>
+
+    <!-- Game Table -->
+    <string name="timer">Time: %02d:%02d:%02d</string>
+    <string name="counter">Attempt: %d/%d</string>
+    <string name="apply">APPLY</string>
+    <string name="new_game">New Game</string>
+    <string name="win">You won!</string>
+    <string name="loose">You lost!</string>
+    <string name="empty_fields">Fill all fields in a row.</string>
+
+    <!--  Menu Titles  -->
+    <string name="howToPlay">How to play?</string>
+
+    <!-- Options titles -->
+    <string name="options_board">Board settings</string>
+    <string name="options_game">Game settings</string>
+    <string name="options_general">General settings</string>
+    <string name="row_amount">Rows amount</string>
+    <string name="col_amount">Columns amount</string>
+    <string name="color_amount">Colors amount</string>
+    <string name="unique_colors">Unique colors</string>
+    <string name="input_type">Input type</string>
+    <string name="timer_option">Timer</string>
+    <string name="game_mode_practice">Practice Mode</string>
+    <string name="practice_mode_autofill">Practice Mode Autofill</string>
+    <string name="app_theme">App Theme</string>
+    <string name="language">Language</string>
+    <string name="appearance">Appearance</string>
+    <string name="field_style">Fields style</string>
+    <string name="color_palette">Color Palette</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Options summary -->
+    <string name="options_row_summary">Change amount of rows (attempts).</string>
+    <string name="options_col_summary">Change amount of columns (length of code).</string>
+    <string name="options_color_summary">Change amount of colors.</string>
+    <string name="options_unique_summary">Can colors be repeated? </string>
+    <string name="options_input_summary">If enabled, colors will be placed sequentially from left to right.</string>
+    <string name="timer_option_summary">Show a timer counting the game time.</string>
+    <string name="game_mode_practice_summary">If enabled, hints will be placed in the order of the color fields.</string>
+    <string name="practice_mode_autofill_summary">If enabled, guessed colors will be copied to the next row.</string>
+
+    <!-- Options warning -->
+    <string name="options_col_warning">Columns amount cannot be higher than amount of colors in Unique Colors mode. \nSettings has been adjusted.</string>
+
+    <!--  How To Play  -->
+    <string name="tut_code_desc">A code is automatically generated combination of colors. Every new game has a new code to guess.</string>
+    <string name="tut_guessing_desc">Player starts guessing the pattern by filling empty fields in a first row of the game with the colors from bottom of the screen.
+        \n\nAfter all fields in a row are filled, player can confirm combination with the accept button on the bottom of the screen.</string>
+    <string name="tut_checking_desc">Confirming the attempt will check the code and provide hints for the next attempt, by showing small pins next to the row.
+        \nBy default, hints are not shown in order of fields in a row.</string>
+    <string name="tut_good_desc">One of the fields has good color and is in a good place.</string>
+    <string name="tut_misplaced_desc">One of the fields has good color but is in a wrong place.</string>
+    <string name="tut_wrong_desc">One of the fields has color which does not appear in code.</string>
+    <string name="tut_win_desc">A game can end either by win or loose. If player guess the pattern within the set attempts - he wins. If the code is not fully guessed by the last attempt, the game is lost.</string>
+
+    <!--  Tags Ids  -->
+    <item name="circleIndex" type="id" />
+    <item name="circleColor" type="id" />
+</resources>

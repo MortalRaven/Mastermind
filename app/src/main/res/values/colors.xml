@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="backgroundMain">#EAE6DD</color>
+    <color name="backgroundSecondary">#5E5852</color>
+    <color name="textPrimary">#DCD3D1</color>
+    <color name="textSecondary">#201D1C</color>
+    <color name="circleFade">#66060709</color>
+    <color name="accent">#FF6600</color>
+
+    <color name="darker_gray">#363A43</color>
+    <color name="lighter_gray">#7A8089</color>
+    <color name="vibrant_gray">#0F0F10</color>
+    <color name="mint_green">#11DC52</color>
+
+    <color name="m_red">#FF595E</color>
+    <color name="m_orange">#FF924C</color>
+    <color name="m_yellow">#FFCA3A</color>
+    <color name="m_green">#97CB42</color>
+    <color name="m_blue">#3D96CD</color>
+    <color name="m_purple">#6A4C93</color>
+    <color name="m_pink">#D575C3</color>
+    <color name="m_brown">#694041</color>
+
+    <color name="m_pastel_red">#FFADAD</color>
+    <color name="m_pastel_orange">#FFD09E</color>
+    <color name="m_pastel_yellow">#FFFEDA</color>
+    <color name="m_pastel_green">#C1FFBE</color>
+    <color name="m_pastel_blue">#A0C4FF</color>
+    <color name="m_pastel_purple">#BAA4F5</color>
+    <color name="m_pastel_pink">#FFB4DB</color>
+    <color name="m_pastel_brown">#DAABA0</color>
+
+    <color name="m_vibrant_red">#FF0000</color>
+    <color name="m_vibrant_orange">#FF8700</color>
+    <color name="m_vibrant_yellow">#E8C900</color>
+    <color name="m_vibrant_green">#6EDC00</color>
+    <color name="m_vibrant_blue">#147DF5</color>
+    <color name="m_vibrant_purple">#6E01DA</color>
+    <color name="m_vibrant_pink">#FF25E2</color>
+    <color name="m_vibrant_brown">#652911</color>
+</resources>

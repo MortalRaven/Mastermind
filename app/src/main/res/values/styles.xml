@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="circleFields" parent="Base.Theme.Mastermind" >
+        <item name="field_active">@drawable/circle_active</item>
+        <item name="field_blank">@drawable/circle_blank</item>
+        <item name="field_blank_selected">@drawable/circle_blank_selected</item>
+        <item name="field_full">@drawable/circle_full</item>
+        <item name="field_full_selected">@drawable/circle_full_selected</item>
+        <item name="field_selector">@drawable/circle_selector</item>
+    </style>
+
+    <style name="squareFields" parent="Base.Theme.Mastermind" >
+        <item name="field_active">@drawable/square_active</item>
+        <item name="field_blank">@drawable/square_blank</item>
+        <item name="field_blank_selected">@drawable/square_blank_selected</item>
+        <item name="field_full">@drawable/square_full</item>
+        <item name="field_full_selected">@drawable/square_full_selected</item>
+        <item name="field_selector">@drawable/square_selector</item>
+    </style>
+    
+    <style name="pandaFields" parent="Base.Theme.Mastermind" >
+        <item name="field_active">@drawable/panda_active</item>
+        <item name="field_blank">@drawable/panda_blank</item>
+        <item name="field_blank_selected">@drawable/panda_blank_selected</item>
+        <item name="field_full">@drawable/panda_full</item>
+        <item name="field_full_selected">@drawable/panda_full_selected</item>
+        <item name="field_selector">@drawable/panda_selector</item>
+    </style>
+
+
+    <style name="defaultColorPalette" parent="Base.Theme.Mastermind" >
+        <item name="colorPalette">@array/game_palette</item>
+        <item name="hintsPalette">@array/hints_palette</item>
+    </style>
+
+    <style name="pastelColorPalette" parent="Base.Theme.Mastermind" >
+        <item name="colorPalette">@array/game_palette_pastel</item>
+        <item name="hintsPalette">@array/hints_palette_pastel</item>
+    </style>
+
+    <style name="vibrantColorPalette" parent="Base.Theme.Mastermind" >
+        <item name="colorPalette">@array/game_palette_vibrant</item>
+        <item name="hintsPalette">@array/hints_palette_vibrant</item>
+    </style>
+    
+</resources>
